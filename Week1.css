@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+
+  background-color:white;
+  margin: 5px 1px 10px 2px;
+}
+
+
+.header{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 150;
+  font-size: 30px;
+  text-decoration-color: #FFFFFF;
+  background-color: #211545;
+  text-decoration: none;
+  font-family: courier;
+  margin-top: 40px;
+}
+
+.topnav {
+  background-color:  #640B17;
+  overflow: hidden;
+  height: 40px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color:#ECF0F1;
+  color: black;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.container .card{
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow:  2px 6px 8px #666;
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card img{
+    width: 320px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom:8px;
+    text-decoration: underline;
+}
+
+.container .card p{
+    padding: 10 1rem;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500px;
+    margin-top: 1900px;
+
+    color: #211545;
+    font-weight:bold;
+}
+a{
+  outline: none;
+
+}
